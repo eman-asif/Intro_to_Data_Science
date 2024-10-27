@@ -1,0 +1,585 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%; 
+    height: 1000px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.colorful-section {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section1 {
+    background-color: rgb(245, 114, 54);
+    padding: 250px;
+    
+}
+
+.section2 {
+    background-color: rgb(230, 230, 230);
+    padding: 900px;
+    padding-right: 299px;
+}
+
+.section3 {
+    background-color: rgb(255, 255, 255);
+    padding: 400px;
+    padding-right: 299px;
+}
+.section4 {
+    background-color: rgb(230, 230, 230);
+    padding: 350px;
+    padding-right: 299px;
+}
+.section5 {
+    background-color: rgb(245, 114, 54);
+    padding: 130px;
+    padding-right: 299px;
+}
+.section6 {
+    background-color: rgb(230, 230, 230);
+    padding: 790px;
+    padding-right: 299px;
+}
+.section7 {
+    background-color: rgb(245, 114, 54);
+    padding: 230px;
+    padding-right: 299px;
+}
+.section8 {
+    background-color: rgb(46, 46, 46);
+    padding: 100px;
+    padding-right: 299px;
+}
+.image img{
+  position: absolute;
+  top: 80px; 
+  left: 230px;
+  margin-right: 100px;
+  height: 79%;
+  width: 55%;
+  
+ 
+}
+.rectangle {
+    position: absolute;
+    top: 400px;
+    right: 290px;
+    width: 490px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.text{
+    font-style:normal;
+    padding: 1px 30px 5px 30px;
+}
+.text p span {
+    font-size: 35px;
+    color: rgb(44, 43, 43);
+    font-weight: normal;
+}
+.text p sub {
+    font-size: 15px;
+}
+.text p a {
+    color: rgb(44, 43, 43);
+}
+.text p a:hover {
+    text-decoration: underline;
+    color: rgb(245, 114, 54); 
+}
+.button a:link, a:visited {
+    background-color: rgb(245, 114, 54);
+    color: white;
+    padding: 20px;
+    width: 31%;
+    margin-left: 30px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.button a:hover, a:active {
+    background-color: rgb(58, 53, 53);
+  }
+.block {
+    text-align: center;
+    margin-top: -250px;
+    margin-bottom: 120px;
+    font-size:40px ;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    margin: -50px;
+    
+  }
+  
+.flex-container  div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    margin: 1px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 28px;
+  }
+  
+  .flex-container  div img {
+    background-color: rgb(245, 114, 54);
+    height: 45px;
+    width: 45px;
+    padding: 15px;
+    border-radius: 60%;
+  }
+  .flex-container div .second-p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-right: 200px;
+    margin-top: -10px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 110px;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25));
+    pointer-events: none; 
+}
+.gradient-overlay p:nth-child(1) {
+    text-align: center;
+    color: white;
+    font-size: 35PX;
+    padding-top: 40PX;
+}
+.gradient-overlay p:nth-child(2) {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 27PX;
+}
+.button1 a:link, .button1 a:visited {
+    background-color: rgb(245, 114, 54);
+    color: white;
+    padding: 15px;
+    width: 12%;
+    font-size: 15px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transform: translate(220%, -510%);
+    border: 1px solid rgb(245, 114, 54);
+}
+
+.button1 a:first-child:link, .button1 a:first-child:visited {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.button1 a:first-child:hover, .button1 a:first-child:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;}
+
+.button1 a:hover, .button1 a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.button1 p {
+    text-align: center; 
+    color: white; 
+    font-size: 13px; 
+    transform: translate(0%,-1420%);
+}
+.button1 p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block1 {
+    text-align: center;
+    margin-top: -250px;
+    margin-bottom: 120px;
+    color: rgb(26, 25, 25);
+    font-size:40px ;
+    transform: translate(0,540%);
+}
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 340px;
+    margin: -50px;
+    
+  }
+  
+.flex-container1  div {
+    padding-top: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    margin: 1px;
+    line-height: 55px;
+    font-size: 25px;
+  }
+  
+  .flex-container1  div img {
+    height: 230px;
+    width: 50%;
+    padding: 15px;
+    margin-top: -30px;
+    margin-left: -50px;
+    border-radius: 50%;
+  }
+  .flex-container1 div .second-p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: -70px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 255px;
+}
+.flex-container1 div a {
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    margin-top: -18px;
+    padding-right: 350px;
+}
+.block2 {
+    margin: 50px;
+}
+.rectangle2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 470px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(245, 114, 54);
+}
+.rectangle2 .text2 {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 80px;
+}
+.button2 a:link, a:visited {
+    background-color: rgb(245, 114, 54);
+    color: white;
+    padding: 18px;
+    width: 28%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.button2 a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid white;
+  }
+.image2  {
+    position:absolute;
+    padding-top: 90px;
+   margin-left: -460px;
+   height: 70%;
+   width: 35%;
+}
+.blee {
+    margin-top: 750px;
+}
+.blee p:nth-child(1) {
+    text-align: center;
+    font-size: 40px;
+}
+.blee p:nth-child(2) {
+    text-align: center;
+    margin-top: -25px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    margin-left: 210px;
+}
+.rectangles {
+
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 285px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.rectangles:nth-child(2) {
+   margin-top: 130px;
+}
+.rectangles:nth-child(3) {
+    margin-top: 240px;
+ }
+.rectangles img {
+    padding: 25px 25px 25px 20px;
+    width: 240px;
+    height: 160px;
+}
+.text3 {
+    font-weight: lighter;
+    color: rgb(44, 44, 44);
+    margin-top: -30px;
+    text-align: center;
+}
+.text3 h2 {
+    font-size: 23px;
+    font-weight: lighter;
+}
+.text3 p {
+    margin-top: -15px;
+    font-weight:300;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.text3 a {
+    color: black;
+    font-size: 14px;
+}
+.link {
+    text-align: center;
+  font-size: 13px;
+
+}
+.row2 {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.images {
+    flex: 1;
+    width: 400px;
+    height: 460px;
+    display: block;
+}
+.gradient-overlay1 {
+    position: absolute;
+    width: 49.5%;
+    height: 460px;
+    transform: translate(0%,-100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    pointer-events: none; 
+}
+.gradient-overlay1 p:nth-child(1) {
+    text-align: center;
+    color: white;
+    font-size: 30PX;
+    font-weight:900;
+    white-space: nowrap;
+    margin-left: 50px;
+    margin-right: 150px;
+    padding-top: 225PX;
+}
+.gradient-overlay1 p:nth-child(2) {
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 15px;
+    line-height: 27PX;
+}
+.gradient-overlay2 {
+    position: absolute;
+    width: 49.5%;
+    height: 460px;
+    transform: translate(100%,-100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    pointer-events: none; 
+}
+.gradient-overlay2 p:nth-child(1) {
+    text-align: center;
+    color: white;
+    font-size: 30PX;
+    font-weight:900;
+    white-space: nowrap;
+    margin-left: -130px;
+    margin-right: 150px;
+    padding-top: 225PX;
+}
+.gradient-overlay2 p:nth-child(2) {
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 15px;
+    line-height: 27PX;
+}
+.block2 {
+    text-align: center;
+    margin-bottom: 120px;
+    font-size:40px ;
+}
+.block2 p:nth-child(2) {
+    font-size: 13px;
+    margin-top: -18px;
+}
+.row3 {
+    display: flex;
+    flex-direction: row;
+    padding: 1px 200px;
+    padding-bottom: 20px;
+    margin-top: -80px;
+}
+.pic {
+    width: 470px;
+    height: 450px;
+}
+.colm{
+    display: flex;
+    flex-direction: column;
+}
+.inrow1 {
+    display: flex;
+    flex-direction: row;
+}
+.inrow2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.box1{
+    width: 220px;
+    height: 212px;
+    margin-left: 18px;
+    background-color: rgb(243, 117, 58);
+}
+.box1 img {
+    padding-top: 45px;
+    padding-left: 70px;
+    width: 63px;
+    height: 60px;
+}
+.box1 p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.get {
+    color: white;
+    margin-left: 220px;
+    font-size: 38px;
+}
+.get p{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 38px;
+}
+.input {
+    width:37%; 
+    padding-left:10px ;
+    height: 35px;
+    font-size:13px;
+    background-color:rgb(241, 240, 240) ;
+    border: none;
+}
+
+.input3 {
+    width:37%; 
+    padding-left:10px ;
+    padding-bottom: 50px;
+    height: 50px;
+    font-size:13px;
+    background-color:rgb(241, 240, 240) ;
+    border: none;
+}
+.button3 a:link, a:visited {
+    background-color: rgb(245, 114, 54);
+    color: white;
+    padding: 9px;
+    width: 36%;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 15px;
+    border: 1px solid ;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.button3 a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(245, 114, 54);
+    font-weight: bolder;
+    border: 1px solid white;
+  }
+  .rectangle3 {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 450px;
+    width: 450px;
+    height: 360px;
+    background-color: rgb(233, 233, 233);
+}
+.rectangle3 ul {
+    margin-left: -30px;
+    margin-top: 3px;
+}
+.java {
+    border: none;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    width: 90%;
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 0px;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 10px;
+}
+.end {
+    margin-top: 70px;
+    font-size: 11px;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+.end p:nth-child(2){
+    margin-top: 90px;
+    font-size: 10px;
+}
