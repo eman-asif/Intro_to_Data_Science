@@ -1,0 +1,101 @@
+CustomerID,Age,City
+1,22,New York
+2,23,Los Angeles
+3,24,Chicago
+4,25,Houston
+5,26,Phoenix
+6,27,New York
+7,28,Los Angeles
+8,29,Chicago
+9,30,Houston
+10,31,Phoenix
+11,32,New York
+12,33,Los Angeles
+13,34,Chicago
+14,35,Houston
+15,36,Phoenix
+16,37,New York
+17,38,Los Angeles
+18,39,Chicago
+19,40,Houston
+20,41,Phoenix
+21,42,New York
+22,43,Los Angeles
+23,44,Chicago
+24,45,Houston
+25,46,Phoenix
+26,47,New York
+27,48,Los Angeles
+28,49,Chicago
+29,50,Houston
+30,51,Phoenix
+31,22,New York
+32,23,Los Angeles
+33,24,Chicago
+34,25,Houston
+35,26,Phoenix
+36,27,New York
+37,28,Los Angeles
+38,29,Chicago
+39,30,Houston
+40,31,Phoenix
+41,32,New York
+42,33,Los Angeles
+43,34,Chicago
+44,35,Houston
+45,36,Phoenix
+46,37,New York
+47,38,Los Angeles
+48,39,Chicago
+49,40,Houston
+50,41,Phoenix
+51,42,New York
+52,43,Los Angeles
+53,44,Chicago
+54,45,Houston
+55,46,Phoenix
+56,47,New York
+57,48,Los Angeles
+58,49,Chicago
+59,50,Houston
+60,51,Phoenix
+61,22,New York
+62,23,Los Angeles
+63,24,Chicago
+64,25,Houston
+65,26,Phoenix
+66,27,New York
+67,28,Los Angeles
+68,29,Chicago
+69,30,Houston
+70,31,Phoenix
+71,32,New York
+72,33,Los Angeles
+73,34,Chicago
+74,35,Houston
+75,36,Phoenix
+76,37,New York
+77,38,Los Angeles
+78,39,Chicago
+79,40,Houston
+80,41,Phoenix
+81,42,New York
+82,43,Los Angeles
+83,44,Chicago
+84,45,Houston
+85,46,Phoenix
+86,47,New York
+87,48,Los Angeles
+88,49,Chicago
+89,50,Houston
+90,51,Phoenix
+91,22,New York
+92,23,Los Angeles
+93,24,Chicago
+94,25,Houston
+95,26,Phoenix
+96,27,New York
+97,28,Los Angeles
+98,29,Chicago
+99,30,Houston
+100,31,Phoenix
